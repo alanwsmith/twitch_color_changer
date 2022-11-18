@@ -1,0 +1,19 @@
+{
+  "name": "twitch_color_changer",
+  "version": "0.1.0",
+  "description": "Change your color after every message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanwsmith/twitch_color_changer.git"
+  },
+  "author": "alan w. smith",
+  "license": "MIT",
+  "homepage": "https://github.com/alanwsmith/twitch_color_changer#readme",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
