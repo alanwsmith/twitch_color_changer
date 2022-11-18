@@ -46,10 +46,7 @@ client.connect()
 client.on('message', (channel, tags, message, self) => {
   // Ignore echoed messages.
   if (self) return
-
-  console.log(message)
-  console.log(tags.username)
-
+  // change the color
   if (tags.username === `theidofalan`) {
     const new_color = colors[Math.floor(Math.random() * colors.length)]
     client.say(channel, `/color ${new_color}`)
